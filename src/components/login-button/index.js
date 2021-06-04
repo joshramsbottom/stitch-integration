@@ -22,7 +22,7 @@ async function sha256(value) {
 async function generateAuthParams(state, verifier) {
   return {
     client_id: "test-18fbd892-3b73-43c3-a854-c6f78c681349",
-    scope: ["openid", "accounts", "balances"],
+    scope: ["openid", "accounts", "balances", "transactions"],
     response_type: "code",
     redirect_uri: "https://localhost:8080/return",
     nonce: base64UrlEncode(crypto.getRandomValues(new Uint8Array(32))),
