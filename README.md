@@ -1,4 +1,4 @@
-# joshs-integration
+# stitch-integration
 
 ## CLI Commands
 
